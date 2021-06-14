@@ -1,0 +1,45 @@
+%
+% バインダーの背表紙
+% A4用紙用のバインダー(5cm)背表紙
+%
+% 背表紙の紙の幅は7cmで印を印字
+% pLaTeX用
+%
+% 生成方法
+% 下記、印字内容を25文字以内で編集し保存
+% 次のコマンドでpdfに変換
+% platex <filename>.tex && dvipdfmx <filename>.dvi
+%
+% 必要に応じて \noindent をつける
+%
+
+\documentclass[12pt]{tarticle}
+
+
+
+\begin{document}
+\pagestyle{empty}
+\Huge
+\vspace*{-.5cm}
+
+% 背表紙 文字数 25文字程度
+%あいうえおかきくけこさしすせそたちつてとなにぬねの
+
+% === 印字内容 1つ目 ===
+経理関係
+
+\vspace{2.3cm}
+-\hspace{20cm}- % キリトリの目印
+\vspace{2.3cm}
+
+% === 印字内容 2つ目 ===
+労務関係
+
+\vspace{2.3cm}
+-\hspace{20cm}- % キリトリの目印
+\vspace{2.3cm}
+
+% === 印字内容 3つ目 ===
+備品管理
+
+\end{document}
